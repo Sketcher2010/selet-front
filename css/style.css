@@ -27,10 +27,13 @@ body {
 
 #content {
     background: url("../images/background.png");
-    background-size: 75%;
     min-height: 100vh;
 }
-
+@media screen and (max-device-width: 550px) {
+ #content {
+     background-size: 75%;
+ }
+}
 .head {
     background: #fff;
     width: 100%;
@@ -176,4 +179,21 @@ body {
 }
 .main-menu-tab-active {
     color: #792667;
+}
+
+.items-line {
+    width: 12%;
+    border-bottom: 2px dotted #eeeeee;
+    margin-top: 21px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    width: 76%;
+    text-align: center;
+    display: inline-block;
+}
+.items img {
+
 }
