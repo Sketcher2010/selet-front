@@ -194,6 +194,89 @@ body {
     text-align: center;
     display: inline-block;
 }
-.items img {
+.content-title-full-width {
+    font-size: 0.8em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #792667;
+    background-color: #fafafa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.achievements-tabs {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.achievements-tab {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.active-achievements-tab {
+    background: #792667;
+}
 
+.achievements-element {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.achievement-head {
+    display: inline-block;
+    text-align: center;
+    width: 76%;
+}
+.achievement-image {
+    display: inline-block;
+}
+.achievement-title {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 42px;
+    letter-spacing: normal;
+    color: #792667;
+    vertical-align: top;
+}
+.achievement-description {
+    font-size: 0.8em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+    width: 90%;
+    margin: auto;
+}
+.shape {
+    padding: 1px 7px 7px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 11px;
+    vertical-align: top;
+    font-size: 0.8em;
+    margin-left: -20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.26);
+    font-weight: 900;
+    display: inline-block;
+}
+.shape-active {
+    background-color: #792667;
+    cursor: default;
+    color: #fff;
 }
