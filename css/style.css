@@ -281,3 +281,59 @@ body {
     cursor: default;
     color: #fff;
 }
+
+
+
+
+#modal {
+    background: rgba(118, 41, 130, 0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.window {
+    top: 15%;
+    max-height: 75%;
+    left: 5%;
+    right: 5%;
+    border-radius: 8px;
+    background: #fff;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+.window-content {
+    overflow-y: auto;
+}
+.window-item-title-line {
+    width: 12%;
+    border-bottom: 2px dotted #eeeeee;
+    margin-top: 13px;
+    display: inline-block;
+    vertical-align: top;
+}
+.window-item-title-text {
+    width: 76%;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #792667;
+}
+.window-item-description {
+    width: 95%;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 10px auto;
+}
+.window-item-photo {
+    text-align: center;
+}
+.close-window {
+    float: right;
+    margin-top: -30px;
+    width: 24px;
+    height: 24px;
+    background: url("../images/close-grey-white.png");
+    background-size: 100%;
+}
