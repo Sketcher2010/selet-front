@@ -29,11 +29,13 @@ body {
     background: url("../images/background.png");
     min-height: 100vh;
 }
+
 @media screen and (max-device-width: 550px) {
- #content {
-     background-size: 75%;
- }
+    #content {
+        background-size: 75%;
+    }
 }
+
 .head {
     background: #fff;
     width: 100%;
@@ -49,27 +51,33 @@ body {
     width: 32px;
     height: 32px;
 }
+
 .logotype {
     text-align: center;
 }
+
 .logotype img {
     width: 24px;
     height: 24px;
 }
+
 .avatar-profile {
     float: right;
 }
+
 .avatar {
     display: inline-block;
 }
+
 .avatar img {
     width: 24px;
     height: 24px;
     border-radius: 12px;
 }
+
 .drop-down {
     background: url("../images/drop-down.svg");
-    width:16px;
+    width: 16px;
     height: 16px;
     display: inline-block;
     margin-bottom: 4px;
@@ -110,6 +118,7 @@ body {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
     font-family: 'Open Sans', sans-serif;
 }
+
 .content-with-padding {
     padding: 12px;
 }
@@ -138,6 +147,7 @@ body {
 .user-men {
     text-align: center;
 }
+
 .menu-close {
     margin-top: 16px;
     float: right;
@@ -151,6 +161,7 @@ body {
     background-color: #fafafa;
     padding: 5px 12px;
 }
+
 .main-menu-tab {
     width: 49%;
     display: inline-block;
@@ -164,6 +175,7 @@ body {
     color: rgba(0, 0, 0, 0.26);
     cursor: pointer;
 }
+
 .main-menu-divider {
     width: 2%;
     display: inline-block;
@@ -177,6 +189,7 @@ body {
     color: rgba(0, 0, 0, 0.26);
 
 }
+
 .main-menu-tab-active {
     color: #792667;
 }
@@ -194,6 +207,7 @@ body {
     text-align: center;
     display: inline-block;
 }
+
 .content-title-full-width {
     font-size: 0.8em;
     font-weight: 600;
@@ -207,17 +221,20 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .achievements-tabs {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .achievements-tab {
     display: inline-block;
     padding: 8px;
     border-radius: 2px;
     cursor: pointer;
 }
+
 .active-achievements-tab {
     background: #792667;
 }
@@ -226,14 +243,17 @@ body {
     margin-top: 15px;
     margin-bottom: 5px;
 }
+
 .achievement-head {
     display: inline-block;
     text-align: center;
     width: 76%;
 }
+
 .achievement-image {
     display: inline-block;
 }
+
 .achievement-title {
     display: inline-block;
     margin-left: 10px;
@@ -246,6 +266,7 @@ body {
     color: #792667;
     vertical-align: top;
 }
+
 .achievement-description {
     font-size: 0.8em;
     font-weight: normal;
@@ -257,6 +278,7 @@ body {
     width: 90%;
     margin: auto;
 }
+
 .shape {
     padding-top: 1px;
     text-align: center;
@@ -276,17 +298,15 @@ body {
     font-weight: 900;
     display: inline-block;
 }
+
 .shape-active {
     background-color: #792667;
     cursor: default;
     color: #fff;
 }
 
-
-
-
 #modal {
-    background-image: linear-gradient(151deg, rgba(0,0,0,0.9), rgba(118, 41, 130, 0.9) 100%);
+    background-image: linear-gradient(151deg, rgba(0, 0, 0, 0.9), rgba(118, 41, 130, 0.9) 100%);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -304,9 +324,11 @@ body {
     position: fixed;
     font-family: 'Open Sans', sans-serif;
 }
+
 .window-content {
     overflow-y: auto;
 }
+
 .window-item-title-line {
     width: 12%;
     border-bottom: 2px dotted #eeeeee;
@@ -314,6 +336,7 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+
 .window-item-title-text {
     width: 76%;
     text-align: center;
@@ -321,6 +344,7 @@ body {
     font-size: 1.2em;
     color: #792667;
 }
+
 .window-item-description {
     width: 95%;
     color: rgba(0, 0, 0, 0.87);
@@ -331,12 +355,15 @@ body {
     line-height: normal;
     letter-spacing: 0.3px;
 }
+
 .window-item-photo {
     text-align: center;
 }
+
 .window-item-photo img {
     width: 130px;
 }
+
 .close-window {
     float: right;
     margin-top: -30px;
@@ -351,6 +378,7 @@ body {
     margin-top: -30px;
     cursor: pointer;
 }
+
 .camera {
     width: 24px;
     height: 24px;
@@ -358,6 +386,7 @@ body {
     background-size: 100%;
     display: inline-block;
 }
+
 .show-photo-text {
     font-weight: 600;
     font-style: normal;
@@ -369,4 +398,14 @@ body {
     position: absolute;
     width: 140px;
     margin-left: 7px;
+}
+
+.window-photo-view {
+    overflow: hidden;
+    margin-bottom: -4px;
+}
+
+.window-photo-view img {
+    border-radius: 8px;
+    max-width: 100%;
 }
