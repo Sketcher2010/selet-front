@@ -286,7 +286,7 @@ body {
 
 
 #modal {
-    background: rgba(118, 41, 130, 0.8);
+    background-image: linear-gradient(151deg, rgba(0,0,0,0.9), rgba(118, 41, 130, 0.9) 100%);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -325,9 +325,17 @@ body {
     width: 95%;
     color: rgba(0, 0, 0, 0.87);
     margin: 10px auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
 }
 .window-item-photo {
     text-align: center;
+}
+.window-item-photo img {
+    width: 130px;
 }
 .close-window {
     float: right;
@@ -336,4 +344,29 @@ body {
     height: 24px;
     background: url("../images/close-grey-white.png");
     background-size: 100%;
+}
+
+.view-photo {
+    float: left;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.camera {
+    width: 24px;
+    height: 24px;
+    background: url("../images/photo-view-white.svg");
+    background-size: 100%;
+    display: inline-block;
+}
+.show-photo-text {
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    width: 140px;
+    margin-left: 7px;
 }
